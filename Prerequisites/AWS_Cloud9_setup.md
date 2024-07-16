@@ -22,7 +22,7 @@ If you have any challenges below, you may need to access Bedrock from your deskt
 2. In the AWS console, search for Cloud9.
    - Select Cloud9 from the search results.
 
-![Region Select](/Images/Cloud9_setup_image2.png)
+![Cloud9](/Images/Cloud9_setup_image2.png)
 
 3. Select Create environment.
 
@@ -31,7 +31,7 @@ If you have any challenges below, you may need to access Bedrock from your deskt
 4. Set the environment details.
    - Set Name to `bedrock-environment`.
 
-   ![Create Environment](/Images/Cloud9_setup_image4.png)
+   ![Set Environment](/Images/Cloud9_setup_image4.png)
 
 5. Set the EC2 instance details.
    - Set Instance type to `t3.small`
@@ -46,13 +46,13 @@ Please double-check that you set Platform to `Ubuntu Server 22.04 LTS`. This ens
 
 6. Select the Create button.
 
-![Select EC2](/Images/Cloud9_setup_image6.png)
+![Create EC2](/Images/Cloud9_setup_image6.png)
 
 7. Wait for the environment to be created.
    - You should get a "Successfully created bedrock-environment" message in the top banner when ready.
    - In the Environments list, click the Open link. This will launch the AWS Cloud9 IDE in a new tab.
 
-![Select EC2](/Images/Cloud9_setup_image7.png)
+![Create Env](/Images/Cloud9_setup_image7.png)
 
 *Handling environment creation errors*
 
@@ -62,5 +62,5 @@ Please double-check that you set Platform to `Ubuntu Server 22.04 LTS`. This ens
    - You can close the Welcome tab
    - You can drag tabs around to the position you want them in.
 
-![Select EC2](/Images/Cloud9_setup_image8.png)   
+![Confirm](/Images/Cloud9_setup_image8.png)   
 
