@@ -49,5 +49,9 @@ while True:
     # Extract the actual text content of the model's response
     response_message = response['output']['message']['content'][0]['text']
 
+<<<<<<< HEAD
     # Print the model's response
     print("System", response_message) 
+=======
+    print("System", response_message)
+>>>>>>> 25b1ea29b7b798393667d22108628a342632399b
