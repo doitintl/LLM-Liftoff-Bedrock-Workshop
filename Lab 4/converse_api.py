@@ -139,7 +139,7 @@ while True:
 
     response_message = response['output']['message']['content'][0]['text']
     # print(json.dumps(response_message, indent=4))
-    print(response_message)
+    print("System:", response_message)
 
     # print(json.dumps(message_list, indent=4))
 
